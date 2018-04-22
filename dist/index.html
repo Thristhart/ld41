@@ -1,0 +1,41 @@
+<html lang="en-US">
+  <head>
+    <title>LD41</title>
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+    <script src="index.js" defer></script>
+    <!-- put format-critical styles here -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #city {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+      }
+    </style>
+    <canvas id="city">
+    </canvas>
+    <ul id="resources">
+      <li>Building materials: <span id="materials">0</span></li>
+      <li>Infrastructure: <span id="infrastructure">0</span></li>
+      <li>Labour: <span id="labour">0</span></li>
+      <li>Knowledge: <span id="knowledge">0</span></li>
+      <li>Food: <span id="food">0</span></li>
+    </ul>
+    <div id="hand"></div>
+    <div id="deck"></div>
+    <template id="cardTemplate">
+      <card>
+        <div class="costs"></div>
+        <img />
+        <h1></h1>
+        <p></p>
+      </card>
+    </template>
+    <link rel="stylesheet" href="./index.css" />
+  </body>
+</html>
