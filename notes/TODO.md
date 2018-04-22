@@ -1,0 +1,9 @@
+- entities (cars???)
+- animation support (for tile construction?? or for entities)
+- buildings
+- turns
+- resources
+- implement cards
+- decks
+- costs
+- passive deck processing
